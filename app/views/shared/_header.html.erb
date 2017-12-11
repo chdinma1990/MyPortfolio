@@ -7,10 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'MyPortfolio', root_path, class: 'navbar-brand' %>
+
+      <%= link_to root_path, class: 'navbar-brand' do %>
+       <i class="fa fa-university"></i>
+       Myportfolio
+      <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
          <li><%= link_to "Contact", new_contact_path %></li>
       </ul> 
