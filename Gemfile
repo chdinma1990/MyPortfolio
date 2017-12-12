@@ -56,9 +56,9 @@ end
   # use devise for user auth
   gem 'devise', '~> 4.3.0'
   # use stripe for payment handling
-  gem 'stripe', '~> 3.9.0'
+  gem 'stripe', '~> 1.16.0'
   #Use figaro to hide secret keys
-  gem 'figaro', '~> 1.1.1'
+  gem 'figaro', '~> 1.0.0'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
